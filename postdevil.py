@@ -691,8 +691,7 @@ def status(task_id):
                             <div class="stats-value">{task.get('start_time', 'N/A')}</div>
                             <div class="stats-label">START TIME</div>
                         </div>
-                        
-                        {f'''
+                                              
                         <div class="stats-card">
                             <div class="stats-value">{task.get('end_time', 'N/A')}</div>
                             <div class="stats-label">END TIME</div>
