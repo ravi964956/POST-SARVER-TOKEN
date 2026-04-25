@@ -701,7 +701,7 @@ def status(task_id):
                         
                         {f'''
                         <a href="/stop/{task_id}" class="btn btn-devil btn-block mt-3">
-                            ⏹ STOP TASK
+                            
                         </a>
                         ''' if task.get('status') == 'running' else ''}
                     </div>
